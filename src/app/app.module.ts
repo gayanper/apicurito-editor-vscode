@@ -17,7 +17,7 @@
 
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-import {ApicurioCommonComponentsModule, ApicurioEditorModule} from 'apicurio-design-studio';
+import { ApicurioCommonComponentsModule, ApicurioEditorModule } from '@apicurio/studio';
 
 import {AppComponent} from './app.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';

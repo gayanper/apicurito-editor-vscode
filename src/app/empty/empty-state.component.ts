@@ -19,7 +19,7 @@ import {Component, EventEmitter, Output} from "@angular/core";
 import {NewApiTemplates} from "./empty-state.data";
 import * as YAML from 'js-yaml';
 import {StorageService} from "../services/storage.service";
-import {ApiDefinition} from "apicurio-design-studio";
+import { ApiDefinition } from "@apicurio/studio";
 
 @Component({
     moduleId: module.id,

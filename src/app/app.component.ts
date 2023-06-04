@@ -16,7 +16,7 @@
  */
 
 import {Component} from '@angular/core';
-import {ApiDefinition} from 'apicurio-design-studio';
+import { ApiDefinition } from '@apicurio/studio';
 import {WindowRef} from './services/window-ref.service';
 import {AppInfoService} from "./services/app-info.service";
 import {VscodeExtensionService} from './services/vscode-extension.service';

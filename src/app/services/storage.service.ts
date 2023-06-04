@@ -18,7 +18,7 @@
 
 import {Injectable} from "@angular/core";
 import {WindowRef} from "./window-ref.service";
-import {ApiDefinition} from "apicurio-design-studio";
+import { ApiDefinition } from "@apicurio/studio";
 
 
 const API_DEF_KEY: string = "apicurito.StorageService.api-definition";

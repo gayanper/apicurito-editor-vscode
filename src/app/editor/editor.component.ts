@@ -16,7 +16,7 @@
  */
 
 import {Component, EventEmitter, Input, Output, ViewChild} from "@angular/core";
-import {ApiDefinition, ApiEditorComponent} from "apicurio-design-studio";
+import { ApiDefinition, ApiEditorComponent } from "@apicurio/studio";
 import {DownloaderService} from "../services/downloader.service";
 import {ConfigService, GeneratorConfig} from "../services/config.service";
 import * as YAML from 'js-yaml';
