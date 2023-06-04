@@ -10,10 +10,14 @@
 			"type": "extensionHost",
 			"request": "launch",
 			"runtimeExecutable": "${execPath}",
-			"args": ["--extensionDevelopmentPath=${workspaceRoot}"],
-			"outFiles": ["${workspaceFolder}/scr-ext/**/*.js"],
-			"stopOnEntry": false,
-            "sourceMaps": true,
+			"args": [
+				"--extensionDevelopmentPath=${workspaceRoot}"
+			],
+			"sourceMaps": true,
+			"outFiles": [
+				"${workspaceRoot}/dist/**/*.js"
+			],
+			"debugWebviews": true
 			//"preLaunchTask": "npm: watch"
 		}
 	]
